@@ -1,0 +1,17 @@
+{
+  "name": "amazon-tracker-server",
+  "version": "1.0.0",
+  "description": "Backend for amazon-tracker: fetches product title/price from Amazon product URLs",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
